@@ -1,0 +1,302 @@
+/* Import */
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+/* Root */
+:root {
+    --primary-color: #ff6000;
+    --primary-dark: #282b2d;
+    --primary-grey: #93979c;
+    --light-grey: #c9d6df;
+    --white: #ffffff;
+    --red: #ff005c;
+    --green: #2eb872;
+    --yellow: #ffc300;
+    --blue: #0074e4;
+}
+
+/* Body */
+body {
+    font-family: Inter, sans-serif;
+}
+
+/* Avatar */
+.avatar {
+    border-radius: 100%;
+}
+.avatar-lg {
+    width: 80px;
+}
+.avatar-md{
+    width: 60px;
+}
+.avatar-sm {
+    width: 40px;
+}
+
+/* Alert */
+.alert {
+    border-radius: 5px;
+    padding: 1rem;
+    color: var(--white);
+    max-width: 60%;
+    margin: auto;
+}
+.danger-alert {
+    background-color: var(--red);
+}
+.success-alert {
+    background-color: var(--green);
+}
+.warning-alert {
+    background-color: var(--yellow);
+}
+.informative-alert {
+    background-color: var(--blue);
+}
+
+/* Badges */
+.badge {
+    color: var(--white);
+    background-color: var(--red);
+}
+.square-badge {
+    padding: 5px;
+}
+.circle-badge {
+    border-radius: 100%;
+    padding: 1px 5px;
+}
+.oval-badge {
+    border-radius: 1rem;
+    padding: 5px;
+}
+.online-badge {
+    border: 3px solid var(--white);
+    font-size: 8px;
+    color: var(--green);
+    background-color: var(--green);
+    border-radius: 100%;
+    padding: 2px 4px;
+}
+.avatar-badge-lg {
+    position: relative;
+    right: 2rem;
+    bottom: 0.7rem;
+}
+.avatar-badge-md {
+    position: relative;
+    right: 1.7rem;
+    bottom: 0.5rem;
+}
+.avatar-badge-sm {
+    position: relative;
+    right: 1.2rem;
+    bottom: 0.3rem;
+}
+
+    /* -- dismiss -- */
+.dismiss {
+    cursor: pointer;
+    color: var(--white);
+    background-color: var(--primary-dark);
+    padding: 5px 7px;
+    border-radius: 100%;
+}
+
+/* Buttons */
+.btn {
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+    border: 3px solid var(--primary-color);
+    cursor: pointer;
+    margin: 0.5rem 0;
+}
+.btn:focus{
+    outline: none;
+}
+.primary-btn {
+    color: var(--white);
+    background-color: var(--primary-color);
+}
+.secondary-btn {
+    color: var(--primary-color);
+    background-color: var(--white);
+}
+.link {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+.icon-btn {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+.floating-btn {
+    position: fixed;
+    right: 1rem;
+}
+/* Card */
+.card {
+    /* border: 1px solid transparent; */
+    width: 18rem;
+    text-align: center;
+}
+.text-left {
+    text-align: left;
+}
+.card-img {
+    max-width: 100%;
+}
+.product-details {
+    text-align: left;
+}
+.product-name {
+    font-weight: bold;
+    font-size: 20px;
+}
+.product-section-name {
+    color: var(--primary-grey);
+}
+.product-price {
+    font-weight: bold;
+    font-size: 24px;
+}
+.cart-or-wishlist {
+    margin-bottom: 1rem;
+}
+/* -- card badge -- */
+.card-with-badge {
+    position: relative;
+}
+.card-badge {
+    position: absolute;
+    top: 2rem;
+    left: 2rem
+}
+/* -- dismiss card -- */
+.dismiss-card {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+}
+/* -- shadow card -- */
+.shadow-card {
+    box-shadow: 10px 10px 10px var(--primary-grey);
+}
+
+/* Image */
+.img {
+    max-width: 100%;
+}
+.round-img {
+    border-radius: 100%;
+}
+
+/* Input */
+.input-div {
+    padding: 0.5rem;
+}
+.input {
+    width: 10rem;
+    padding: 0.5rem;
+    border: 1px solid var(--primary-dark);
+    border-radius: 3px;
+}
+
+/* List */
+.list-items {
+
+}
+.list-item {
+
+}
+.list-inline {
+    display: flex;
+}
+.list-style-none {
+    list-style-type: none;
+}
+   /* stacked list */
+.stacked-list {
+    width: fit-content;
+}
+.stacked-list-item {
+    width: fit-content;
+}
+
+/* Notification */
+.notification {
+    border-bottom: 1px solid var(--primary-dark);
+    padding: 0 0.5rem;
+    width: 20rem;
+}
+.notification-conatiner {
+
+}
+.notification-via {
+    font-weight: bold;
+}
+.notification-detail {
+
+}
+.notification-for {
+    font-weight: bold;
+}
+
+/* Nav */
+.navbar {
+    background-color: var(--primary-color);
+    padding: 1px;
+    border-radius: 1rem;
+}
+.nav-pill {
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+.selected-nav-pill {
+    font-weight: bold;
+}
+
+/* Grids */
+.grid {
+    display: grid;
+}
+
+.grid3 {
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.grid2 {
+    grid-template-columns: 1fr 1fr;
+}
+
+.gridExampleDiv {
+    background-color: var(--green);
+    width: 80%;
+    padding: 3rem;
+}
+
+/* Text Utilities */
+.greyText {
+    color: var(--primary-grey);
+}
+
+.centerText {
+    text-align: center;
+}
+
+/* Notify */
+.notify {
+    border-radius: 0.5rem;
+    width: fit-content;
+    padding: 1rem;
+    background-color: var(--light-grey);
+}
+
+.notifyDanger {
+    background-color: var(--red);
+}
+
+.notifySuccess {
+    background-color: var(--green);
+}
