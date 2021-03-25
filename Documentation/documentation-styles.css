@@ -1,0 +1,116 @@
+/* Import */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+/* Root */
+:root {
+    --primary-color-d: #2a9d8f;
+    --primary-dark-d: #023047;
+    --primary-grey-d: #eaeaea;
+    --primary-light-color-d: #e63946;
+    --white-d: #ffffff;
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+/* Body */
+body {
+    font-family: [Open Sans], sans-serif;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+/* Navbar */
+.navbar-d {
+    padding: 1rem;
+    color: var(--primary-dark-d);
+    display: flex;
+    justify-content: space-around;
+    font-size: 14px;
+}
+/* Logo */
+.logo-d {
+    width: 5rem;
+}
+.nav-pills-d {
+
+}
+.nav-pill-d {
+    padding: 0.5rem;
+}
+.selected-pill-d {
+    font-weight: bold;
+}
+.nav-pill-link-d {
+    color: var(--primary-dark-d);
+    text-decoration: none;
+    cursor: pointer;
+}
+/* List */
+.list-style-none-d {
+    list-style-type: none;
+}
+.list-inline-d {
+    display: flex;
+}
+/* Link */ 
+.link-d {
+    color: var(--primary-light-color-d);
+    text-decoration: none;
+}
+
+/* sidebar */
+.sidebar-d {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: fit-content;
+    color: var(--primary-dark-d);
+    z-index: 10;
+}
+.sidebar-pills-d {
+    padding: 3rem 1rem 1rem 1rem;
+}
+.sidebar-pill-d {
+    padding: 0.5rem 3rem;
+    font-size: 20px;
+}
+.documentation-d {
+    position: absolute;
+    right: 7rem;
+    width: 75%;
+    text-align: left;
+}
+/* How to use??? */
+.how-to-use-d {
+    text-align: center;
+}
+.how-to-heading-d {
+    padding: 0.5rem;
+}
+.how-to-d {
+    padding: 0.5rem;
+}
+/* Avatar-Container */
+.component-case-d {
+    border-radius: 1rem;
+    margin: 1rem;
+}
+.component-container-d {
+    padding: 1rem;
+}
+.component-heading-d {
+    border-bottom: 2px solid var(--primary-dark-d);
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+}
+.avatar-container-d {
+
+}
+.code-snippet-d {
+    text-align: center;
+}
