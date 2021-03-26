@@ -137,7 +137,6 @@ body {
 }
 /* Card */
 .card {
-    /* border: 1px solid transparent; */
     width: 18rem;
     text-align: center;
 }
@@ -204,12 +203,6 @@ body {
 }
 
 /* List */
-.list-items {
-
-}
-.list-item {
-
-}
 .list-inline {
     display: flex;
 }
@@ -230,14 +223,8 @@ body {
     padding: 0 0.5rem;
     width: 20rem;
 }
-.notification-conatiner {
-
-}
 .notification-via {
     font-weight: bold;
-}
-.notification-detail {
-
 }
 .notification-for {
     font-weight: bold;
