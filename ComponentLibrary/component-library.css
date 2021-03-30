@@ -23,13 +23,13 @@ body {
 .avatar {
     border-radius: 100%;
 }
-.avatar-lg {
+.avatarLg {
     width: 80px;
 }
-.avatar-md{
+.avatarMd{
     width: 60px;
 }
-.avatar-sm {
+.avatarSm {
     width: 40px;
 }
 
@@ -41,16 +41,16 @@ body {
     max-width: 60%;
     margin: auto;
 }
-.danger-alert {
+.alertDanger {
     background-color: var(--red);
 }
-.success-alert {
+.alertSuccess {
     background-color: var(--green);
 }
-.warning-alert {
+.alertWarning {
     background-color: var(--yellow);
 }
-.informative-alert {
+.alertInformative {
     background-color: var(--blue);
 }
 
@@ -59,18 +59,18 @@ body {
     color: var(--white);
     background-color: var(--red);
 }
-.square-badge {
+.badgeSquare {
     padding: 5px;
 }
-.circle-badge {
+.badgeCircle {
     border-radius: 100%;
     padding: 1px 5px;
 }
-.oval-badge {
+.badgeOval {
     border-radius: 1rem;
     padding: 5px;
 }
-.online-badge {
+.badgeOnline {
     border: 3px solid var(--white);
     font-size: 8px;
     color: var(--green);
@@ -78,17 +78,17 @@ body {
     border-radius: 100%;
     padding: 2px 4px;
 }
-.avatar-badge-lg {
+.avatarBadgeLg {
     position: relative;
     right: 2rem;
     bottom: 0.7rem;
 }
-.avatar-badge-md {
+.avatarBadgeMd {
     position: relative;
     right: 1.7rem;
     bottom: 0.5rem;
 }
-.avatar-badge-sm {
+.avatarBadgeSm {
     position: relative;
     right: 1.2rem;
     bottom: 0.3rem;
@@ -115,11 +115,11 @@ body {
 .btn:focus{
     outline: none;
 }
-.primary-btn {
+.btnPrimary {
     color: var(--white);
     background-color: var(--primary-color);
 }
-.secondary-btn {
+.btnSecondary {
     color: var(--primary-color);
     background-color: var(--white);
 }
@@ -127,11 +127,11 @@ body {
     text-decoration: none;
     color: var(--primary-color);
 }
-.icon-btn {
+.btnIcon {
     text-decoration: none;
     color: var(--primary-color);
 }
-.floating-btn {
+.btnFloating {
     position: fixed;
     right: 1rem;
 }
@@ -140,46 +140,46 @@ body {
     width: 18rem;
     text-align: center;
 }
-.text-left {
+.textLeft {
     text-align: left;
 }
-.card-img {
+.cardImg {
     max-width: 100%;
 }
-.product-details {
+.cardDetails {
     text-align: left;
 }
-.product-name {
+.cardName {
     font-weight: bold;
     font-size: 20px;
 }
-.product-section-name {
+.cardSectionName {
     color: var(--primary-grey);
 }
-.product-price {
+.cardPrice {
     font-weight: bold;
     font-size: 24px;
 }
-.cart-or-wishlist {
+.cartOrWishlist {
     margin-bottom: 1rem;
 }
 /* -- card badge -- */
-.card-with-badge {
+.cardWithBadge {
     position: relative;
 }
-.card-badge {
+.cardBadge {
     position: absolute;
     top: 2rem;
     left: 2rem
 }
 /* -- dismiss card -- */
-.dismiss-card {
+.dismissCard {
     position: absolute;
     top: 1rem;
     right: 1rem;
 }
 /* -- shadow card -- */
-.shadow-card {
+.cardShadow {
     box-shadow: 10px 10px 10px var(--primary-grey);
 }
 
@@ -187,12 +187,12 @@ body {
 .img {
     max-width: 100%;
 }
-.round-img {
+.imgRound {
     border-radius: 100%;
 }
 
 /* Input */
-.input-div {
+.inputDiv {
     padding: 0.5rem;
 }
 .input {
@@ -203,17 +203,17 @@ body {
 }
 
 /* List */
-.list-inline {
+.listInline {
     display: flex;
 }
-.list-style-none {
+.listStyleNone {
     list-style-type: none;
 }
    /* stacked list */
-.stacked-list {
+.listStacked {
     width: fit-content;
 }
-.stacked-list-item {
+.listStackedItem {
     width: fit-content;
 }
 
@@ -223,10 +223,10 @@ body {
     padding: 0 0.5rem;
     width: 20rem;
 }
-.notification-via {
+.notificationVia {
     font-weight: bold;
 }
-.notification-for {
+.notificationFor {
     font-weight: bold;
 }
 
@@ -236,11 +236,11 @@ body {
     padding: 1px;
     border-radius: 1rem;
 }
-.nav-pill {
+.navPill {
     padding: 0.5rem 1rem;
     cursor: pointer;
 }
-.selected-nav-pill {
+.selectedNavPill {
     font-weight: bold;
 }
 
