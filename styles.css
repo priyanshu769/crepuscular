@@ -1,0 +1,138 @@
+/* Import */
+@import url('https://fonts.googleapis.com/css2?family=Varta&display=swap');
+
+/* Root */
+:root {
+    --primary-color: #2a9d8f;
+    --primary-dark: #023047;
+    --primary-grey: #eaeaea;
+    --primary-light-color: #e63946;
+    --white: #ffffff;
+}
+
+/* Body */
+body {
+    font-family: Varta;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+/* Navbar */
+.navbar {
+    padding: 1rem;
+    color: var(--primary-dark);
+    display: flex;
+    justify-content: space-around;
+}
+/* logo */
+.logo{
+    width: 5rem;
+}
+.nav-pill {
+    padding: 0.5rem;
+}
+.selected-pill {
+    font-weight: bold;
+}
+.nav-pill-link {
+    color: inherit;
+    text-decoration: none;
+}
+/* List */
+.list-style-none {
+    list-style-type: none;
+}
+.list-inline {
+    display: flex;
+}
+/* Link */ 
+.link {
+    color: var(--primary-light-color);
+    text-decoration: none;
+}
+/* Main */
+.main {
+    text-align: center;
+}
+.main p {
+    max-width: 80%;
+    margin: auto;
+    font-size: 48px;
+}
+/* Home Build */
+.hidden {
+    display: none;
+}
+.hero {
+    color: var(--primary-dark);
+    width: 100%;
+}
+.hero-heading {
+    max-width: 75%;
+    margin: auto;
+    font-size: 72px;
+    font-weight: normal;
+}
+
+/* action area */
+.action-area {
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    margin-top: 5rem;
+}
+.action-area-text {
+    font-size: 20px;
+}
+.btn-container {
+    margin-top: 3rem;
+    align-items: center;
+}
+.feedback-text {
+    margin-top: 3rem;
+}
+/* btns */
+.link {
+    text-decoration: none;
+}
+.btn {
+    width: 10rem;
+    padding: 1rem;
+    border-radius: 0.3rem;
+    border: none;
+    font-size: 16px;
+}
+.btn :focus {
+    outline: none;
+}
+.primary-btn {
+    background-color: var(--primary-color);
+    color: var(--primary-grey);
+    padding: 1rem 2rem;
+}
+.secondary-btn {
+    background-color: var(--primary-dark);
+    color: var(--primary-grey);
+    padding: 1rem 3rem;
+}
+
+/* footer */
+.footer {
+    background-color: var(--primary-dark);
+    color: var(--primary-grey);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+.footer-greeting {
+    padding: 10px;
+    font-size: large;
+}
+.footer-link {
+    text-align: center;
+    padding: 0 1rem;
+}
